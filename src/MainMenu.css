@@ -1,0 +1,111 @@
+
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./images/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.nav {
+  position: absolute;
+  left: 40%;
+  top: 2%;
+  border-bottom: solid 3px;
+  padding-bottom: 4px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+  padding: 0px 35px;
+  font-variant: small-caps;
+  font-size: 1.3em;
+
+}
+
+.nav ul li span1:link .nav ul li span1:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
+.nav ul li span1:hover, .nav ul li span1:active { background-color: #f25300;}
+
+.nav ul li span2:link .nav ul li span2:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
+.nav ul li span2:hover, .nav ul li span2:active { background-color: #f25300;}
+
+.nav ul li span3:link .nav ul li span3:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
+.nav ul li span3:hover, .nav ul li span3:active { background-color: #f25300;}
+
+.nav ul li span4:link .nav ul li span4:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
+.nav ul li span4:hover, .nav ul li span4:active { background-color: #f25300;}
+
+.nav ul li span5:link .nav ul li span5:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
+.nav ul li span5:hover, .nav ul li span5:active { background-color: #f25300;}
+
+span1, span2, span3, span4, span5{
+  border-top: solid;
+  border-bottom: solid;
+  padding-bottom: 5px;
+  border-color: Black;
+}
+
+.header {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+}
+
+.header h1 {
+  color: #f25300;
+  font-size: 45px;
+  margin: 0;
+}
+
+span {
+  color: Black;
+  font-size: 70px;
+}
+
+.content {
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  font-size: 1.8em;
+  color: Black;
+  font-variant: small-caps;
+  font-kerning: auto;
+}
+
+.tagline strong {
+  position: absolute;
+  bottom: 99%;
+  left: 0%;
+  color: #a1a1a1;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+.tagline {
+  position: absolute;
+  top: 46%;
+  left: 24%;
+  color: #a1a1a1;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 6%;
+  left: 42%;
+  font-size: 13px;
+}
