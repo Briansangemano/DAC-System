@@ -5,10 +5,9 @@ class Login extends Component {
     render() {
         return (
             <div class="app">
-                <div class="header">
-                    <h1 class="header-h1">D.A.C</h1>
-                    <h2 class="header-h2">Digital Attendance Control</h2>
-                </div>
+              <div class="header">
+                <h1><span>DAC </span>System</h1>
+              </div>
                 <div class="login">
                     <div class="login-box">
                         <h1>Login</h1>

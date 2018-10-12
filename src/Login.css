@@ -1,17 +1,23 @@
 body {
-    background: transparent url("./images/bg.jpg") no-repeat;
+    background: url("./images/fondo.jpg") no-repeat;
+    background-position: center;
 }
+
 .header {
-    display: flex;
-    align-content: flex-start;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 6em;
-    background-color: #e6e6e6;
-    margin-top: 2em;
-    padding-left: 3em;
+  position: absolute;
+  top: 0%;
+  left: 2%;
+}
+
+.header h1 {
+  color: #f25300;
+  font-size: 45px;
+  margin: 0;
+}
+
+span {
+  color: Black;
+  font-size: 70px;
 }
 
 .header .header-h1 {
@@ -38,6 +44,9 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    position: absolute;
+    top: 10%;
+    left: 30%
 }
 
 .login-box {
