@@ -10,18 +10,23 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: url("./images/fondo.jpg");
+  background: url("./images/bg3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   display: block;
 }
 
 .nav {
-  position: absolute;
-  left: 40%;
-  top: 2%;
-  border-bottom: solid 3px;
-  padding-bottom: 4px;
+  position: relative;
+  text-align: right;
+  left: 0%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* border-bottom: solid 3px; */
+  /* border-top: solid 3px; */
+  margin-top: 40px;
+  background-color: white;
+  opacity: 0.7;
 }
 
 .nav ul {
@@ -31,45 +36,39 @@ body {
 .nav ul li {
   list-style: none;
   display: inline-block;
-  color: #fff;
+  color: Black;
   padding: 0px 35px;
   font-variant: small-caps;
-  font-size: 1.3em;
-
+  font-size: 1.4em;
 }
 
-.nav ul li span1:link .nav ul li span1:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-.nav ul li span1:hover, .nav ul li span1:active { background-color: #f25300;}
+.nav ul li span1:link .nav ul li span1:visited { font-weight: 600;}
+.nav ul li span1:hover, .nav ul li span1:active { font-weight: 600;}
 
-.nav ul li span2:link .nav ul li span2:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-.nav ul li span2:hover, .nav ul li span2:active { background-color: #f25300;}
+.nav ul li span2:link .nav ul li span2:visited { font-weight: 600;}
+.nav ul li span2:hover, .nav ul li span2:active { font-weight: 600;}
 
-.nav ul li span3:link .nav ul li span3:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-.nav ul li span3:hover, .nav ul li span3:active { background-color: #f25300;}
+.nav ul li span3:link .nav ul li span3:visited { font-weight: 600;}
+.nav ul li span3:hover, .nav ul li span3:active { font-weight: 600;}
 
-.nav ul li span4:link .nav ul li span4:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-.nav ul li span4:hover, .nav ul li span4:active { background-color: #f25300;}
+.nav ul li span4:link .nav ul li span4:visited { font-weight: 600;}
+.nav ul li span4:hover, .nav ul li span4:active { font-weight: 600;}
 
-.nav ul li span5:link .nav ul li span5:visited {  background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-.nav ul li span5:hover, .nav ul li span5:active { background-color: #f25300;}
+.nav ul li span5:link .nav ul li span5:visited { font-weight: 600;}
+.nav ul li span5:hover, .nav ul li span5:active { font-weight: 600;}
 
-span1, span2, span3, span4, span5{
-  border-top: solid;
-  border-bottom: solid;
-  padding-bottom: 5px;
-  border-color: Black;
-}
 
 .header {
   position: absolute;
-  top: 0%;
-  left: 2%;
+  bottom: 0%;
+  left: 3%;
 }
 
 .header h1 {
   color: #f25300;
   font-size: 45px;
   margin: 0;
+
 }
 
 span {
@@ -77,30 +76,41 @@ span {
   font-size: 70px;
 }
 
-.content {
+.text {
   position: absolute;
-  top: 20%;
-  left: 27%;
+  top: 30%;
+  left: 21%;
+  background-color: lightgrey;
+  padding: 0 50px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.content {
+  position: relative;
+  bottom: 10px;
+  left: 0%;
   font-size: 1.8em;
   color: Black;
   font-variant: small-caps;
   font-kerning: auto;
+  text-align: center;
 }
 
 .tagline strong {
   position: absolute;
   bottom: 99%;
-  left: 0%;
-  color: #a1a1a1;
+  color: Black;
   font-variant: small-caps;
   font-size: 20px;
+  bottom: 145px;
 }
 
 .tagline {
-  position: absolute;
-  top: 46%;
-  left: 24%;
-  color: #a1a1a1;
+  position: relative;
+  color: Black;
+  text-align: justify;
 }
 
 .copyright {
@@ -108,4 +118,5 @@ span {
   bottom: 6%;
   left: 42%;
   font-size: 13px;
+  color: lightgrey;
 }
