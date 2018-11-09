@@ -1,0 +1,10 @@
+.Footer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: url("../../images/bg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat
+}

@@ -1,0 +1,39 @@
+.Header {
+  background-color: grey;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.Header h1 {
+  color: #f25300;
+  font-size: 45px;
+  margin: 0;
+}
+
+span {
+  color: Black;
+  font-size: 70px;
+}
+
+.Menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.Menu li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.Menu li a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.Menu li a:hover {
+  color: #EEE;
+}
