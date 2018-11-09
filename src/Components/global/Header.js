@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 //Asssets
 import './css/Header.css';
 
+
 class Header extends Component {
   static PropTypes = {
     title: PropTypes.string.isRequired,

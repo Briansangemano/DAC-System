@@ -1,5 +1,8 @@
-.App {
-  background: url("./images/bg3.jpg");
+.Content {
+  background: url("./images/Bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

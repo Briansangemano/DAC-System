@@ -1,8 +1,8 @@
 .Header {
   background-color: grey;
-  height: 120px;
-  padding: 20px;
-  color: white;
+  height: 100px;
+  padding-left: 30px;
+  opacity: 0.85;
 }
 
 .Header h1 {
@@ -12,12 +12,17 @@
 }
 
 span {
-  color: Black;
+  color: black;
   font-size: 70px;
 }
 
+.Content
+{
+  padding-top: 50px;
+}
+
 .Menu {
-  margin: 0;
+  margin: -40px 50px;
   padding: 0;
   list-style: none;
   text-align: right;
@@ -26,7 +31,9 @@ span {
 .Menu li {
   display: inline-block;
   padding-right: 10px;
-  font-size: 18px;
+  font-size: 22px;
+  padding-left: 20px;
+  font-variant: small-caps
 }
 
 .Menu li a {

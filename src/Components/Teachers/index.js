@@ -1,6 +1,9 @@
 //Dependencies
 import React, { Component } from 'react';
 
+//Assets
+import './index.css';
+
 class Teachers extends Component {
   render() {
     return (
