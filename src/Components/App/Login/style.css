@@ -1,43 +1,3 @@
-body {
-    background: url("./images/bg3.jpg") no-repeat;
-    background-position: center;
-}
-
-.header {
-  position: relative;
-  margin-top: 30px;
-  background-color: white;
-  opacity: 0.7;
-}
-
-.header h1 {
-  color: #f25300;
-  font-size: 45px;
-  text-align: left;
-  margin-left: 40px;
-}
-
-span {
-  color: Black;
-  font-size: 70px;
-}
-
-.header .header-h1 {
-    font-size: 4em;
-    color: black;
-    padding: 0px;
-    margin: 0px;
-    height: 95px;
-}
-
-.header .header-h2 {
-    padding: 1em;
-    /* width: 6em; */
-    font-size: 1em;
-    color: #ea4800;
-    height: 0px;
-}
-
 .login {
     padding: 5em;
     display: flex;
@@ -46,7 +6,6 @@ span {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute;
     top: 10%;
     left: 30%
 }
@@ -61,7 +20,7 @@ span {
     box-sizing: border-box;
 }
 
-h1 {
+.tittle-login {
     padding: 0px;
     margin: 0px;
     text-align: center;

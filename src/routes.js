@@ -4,11 +4,12 @@ import { Route, Switch } from 'react-router-dom';
 
 //Components
 import App from './Components/App';
-import Classrooms from './Components/Classrooms';
-import Students from './Components/Students';
-import Home from './Components/Home';
-import Subjects from './Components/Subjects';
-import Teachers from './Components/Teachers';
+import Classrooms from './Components/App/Classrooms';
+import Students from './Components/App/Students';
+import Home from './Components/App/Home';
+import Subjects from './Components/App/Subjects';
+import Teachers from './Components/App/Teachers';
+import Login from './Components/App/Login';
 
 const AppRoutes = () =>
   <App>
@@ -17,7 +18,8 @@ const AppRoutes = () =>
         <Route path="/students" component={Students} />
         <Route path="/subjects" component={Subjects} />
         <Route path="/teachers" component={Teachers} />
-        <Route path="/" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/" component={Login} />
     </Switch>
   </App>;
 

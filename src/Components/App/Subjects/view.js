@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 //Assets
-import './index.css';
+import './style.css';
 
 class Subjects extends Component {
   render() {

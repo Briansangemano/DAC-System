@@ -1,7 +1,7 @@
 export default[
   {
     title: 'HOME',
-    url: '/'
+    url: '/home'
   },
   {
     title: 'TEACHERS',
@@ -18,5 +18,5 @@ export default[
   {
     title: 'CLASSROOMS',
     url: '/classrooms'
-  },
+  }
 ];

@@ -8,10 +8,10 @@ import Content from './global/Content';
 import Footer from './global/Footer';
 
 //Asssets
-import './App.css';
+import './style.css';
 
 //Date
-import items from '../data/menu'
+import items from '../../data/menu'
 
 class App extends Component {
   static PropTypes = {
