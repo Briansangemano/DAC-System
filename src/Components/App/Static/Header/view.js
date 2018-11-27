@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 //Asssets
-import './css/Header.css';
+import './style.css';
 
 
 class Header extends Component {

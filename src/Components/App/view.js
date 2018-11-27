@@ -1,33 +1,26 @@
 //Dependencies
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import { withRouter } from 'react-router-dom'
 
 //Components
-import Header from './global/Header';
-import Content from './global/Content';
-import Footer from './global/Footer';
+import Header from './Static/Header';
+import Content from './Static/Content';
+import Footer from './Static/Footer';
 
 //Asssets
 import './style.css';
 
 //Date
-import items from '../../data/menu'
+import items from '../../data/menu';
 
-class App extends Component {
-  static PropTypes = {
-    children: PropTypes.object.isRequired
-  };
-  render() {
-    const { children } = this.props;
+const App = (props) => {
+  return (
+    <div className="App">
+      { props.location.pathname === '/' ? null : <Header title="DAC System" items={items} /> }
+      <Content body={props.children}/>
+      <Footer copyright="&copy; DAC-System-2018" />
+  </div>
+  );
+};
 
-    return (
-      <div className="App">
-        <Header title="DAC System" items={items} />
-        <Content body={children}/>
-        <Footer copyright="&copy; DAC-System-2018" />
-      </div>
-    );
-  }
-}
-
-export default App;
+export default withRouter(App);
