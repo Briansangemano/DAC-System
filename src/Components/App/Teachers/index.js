@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Teachers from './view';
-import { addTeacher } from '../../../actions/teachers';
+import { addTeacherThunk, getTeachersThunk } from '../../../actions/teachers';
 
 const mapStateToProps = state => ({
   teachers: state.teachers.list,
@@ -9,7 +9,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    addTeacher: item => { addTeacher(item) }
+    addTeacher: item => { dispatch(addTeacherThunk(item)) },
+    getTeachers: () => { dispatch(getTeachersThunk()) }
 });
 
 export default connect(
