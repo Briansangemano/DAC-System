@@ -1,0 +1,38 @@
+.login {
+    padding: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 10%;
+    left: 30%
+}
+
+.login-box {
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.tittle-login {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
