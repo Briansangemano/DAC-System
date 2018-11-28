@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 
 //Components
 import Header from './Static/Header';
